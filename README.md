@@ -1,5 +1,10 @@
 # vuecourse
 
+## About the project
+```
+This project is used to practice my knowledge of VUE.JS
+```
+
 ## Project setup
 ```
 npm install
