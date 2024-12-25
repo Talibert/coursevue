@@ -5,9 +5,11 @@
 </template>
 
 <script>
+// Botão utilizado no header do projeto
 export default {
   name: "HeaderButton",
   props: {
+    // Título do botão
     label: {
       type: String,
       default: "Clique aqui",

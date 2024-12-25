@@ -8,6 +8,7 @@
 </template>
 
 <script>
+// Header do projeto
 import HeaderButton from "./HeaderButton.vue"
 
 export default {
