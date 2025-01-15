@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header-title">
-      Nome: {{ nome }}
+      <HeaderWelcome/>
     </div>
     <div class="header-buttons">
       <HeaderButton label="Botão 1" 
@@ -18,11 +18,13 @@
 <script>
 // Header do projeto
 import HeaderButton from "./HeaderButton.vue"
+import HeaderWelcome from "./HeaderWelcome.vue";
 
 export default {
   name: "HeaderComponent",
   components: {
     HeaderButton,
+    HeaderWelcome
   },
   data(){
     return {
